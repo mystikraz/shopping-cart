@@ -1,0 +1,44 @@
+.thumbnail img {
+    max-height: 150px;
+}
+
+.thumbnail .description {
+    color: #7f7f7f;
+}
+
+.price {
+    font-weight:bold;
+    font-size: 16px;
+}
+.logo{
+	font-family: cursive;
+	font-size:35px;
+	letter-spacing: 6px;
+		color:#ffffff !important;
+
+}
+.navbar-header a:hover{
+	color:gold !important;
+}
+
+.slogan{
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+@media only screen and (max-width:765px) {
+.logo{
+	font-size: 25px;
+	padding: 5px;
+	line-height: 28px;
+}
+.slogan{
+	font-size:12px;
+	display: block;
+
+}
+.navbar-header{
+	padding-bottom: 10px;
+}
+
+}
